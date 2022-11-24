@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pasek{
+    width: 100%;
+    height: 150px;
+    background: #1f1f1f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 30px;
+}
+
+.nagłówek{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 200px;
+    text-align: center;
+    color: aqua;
+}
+
+.nagłówek2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 400px;
+    text-align: center;
+    color: aqua;
+}
+
+.tło{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 250px;
+    text-align: center;
+}
+
+.tło a{
+    color: #ffffff;
+    text-decoration: none;
+    display: fixed;
+}
+
+.tło a:hover{
+    color: aqua;
+    transition: 0,3s;
+}
+
+.tło2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 450px;
+    text-align: center;
+}
+
+.tło2 a{
+    color: #ffffff;
+    text-decoration: none;
+    display: fixed;
+}
+
+.logo-img{
+    width: 85px;
+    height: 85px;
+}
+
+.linki{
+    list-style: none;
+    position: fixed;
+    top: 18px;
+    left: 150px;
+}
+
+.linki a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: flex;
+}
+
+.linki a i{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.linki a:hover{
+    color: aqua;
+    transition: 0,3s;
+}
+
+@media only screen and (max-width: 600px){
+    .pasek{
+        width: 100%;
+    }
+    .linki li a p{
+        display: none;
+    }
+    
+    .linki li a i{
+        margin-right: 0;
+    }
+    
+    .linki li a{
+        justify-content: center;
+    }
+    .logo-img{
+        justify-content: center;
+    }
+}
