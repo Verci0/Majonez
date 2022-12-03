@@ -21,7 +21,7 @@
     position: fixed;
     top: 200px;
     text-align: center;
-    color: aqua;
+    color: orange;
 }
 
 .nagłówek2{
@@ -30,7 +30,7 @@
     position: fixed;
     top: 400px;
     text-align: center;
-    color: aqua;
+    color: orange;
 }
 
 .tło{
@@ -48,7 +48,7 @@
 }
 
 .tło a:hover{
-    color: aqua;
+    color: orange;
     transition: 0,3s;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .linki a:hover{
-    color: aqua;
+    color: orange;
     transition: 0,3s;
 }
 
